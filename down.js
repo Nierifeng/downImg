@@ -482,6 +482,7 @@ function getDirectoryFile(savaDirectory = saveDirectory) {
   });
 }
 getDirectoryFile();
+// todo 转移到后端
 
 // const p1 = fetch("https://www.pinterest.com/resource/BaseSearchResource/get/", {
 //   headers: {
