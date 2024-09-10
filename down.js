@@ -432,7 +432,7 @@ async function uploadFile(filePath, fileName) {
   let blob = new Blob([buffer]);
   formData.append("formFile", blob, fileName);
   axios
-    .post(`http://20.210.109.247:2335/api/file?buckName=lbxx`, formData)
+    .post(`http://52.143.101.166:2335/api/file?buckName=lbxx`, formData)
     .then((res) => {})
     .catch((err) => {
       errorName.push(fileName);
